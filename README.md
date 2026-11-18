@@ -1,11 +1,13 @@
-# TP : comptage de mots
+# TP1 : comptage de mots
 
-Comparaison de plusieurs méthodes pour compter les occurrences de mots dans un fichier texte, sur trois fichiers de tailles différentes (1 000, 100 000 et 1 000 000 lignes).
+**Auteur :** Hugo EXERTIER, cours Big Data 5A (Mohamed Quafafou), rendu du 18/11/2026.
+
+Comparaison de quatre méthodes (Python séquentiel, PySpark, Python pseudo-MapReduce, Hadoop MapReduce) pour compter les occurrences de mots dans un fichier texte, sur trois fichiers de tailles différentes (1 000, 100 000 et 1 000 000 lignes).
 
 ## Contenu
 
 - `comptage_mots.ipynb` : les 3 méthodes du TP (Python simple, pseudo-MapReduce en Python, Hadoop MapReduce) et la comparaison de leurs temps d'exécution.
-- `comptage_mots_spark.ipynb` : bonus, la même chose avec Apache Spark (PySpark).
+- `comptage_mots_spark.ipynb` : la 4e méthode, avec Apache Spark (PySpark), comparée à la version Python simple.
 
 Les fichiers de test (`mots_*.txt`) ne sont pas dans le dépôt : les notebooks les génèrent.
 
@@ -25,4 +27,5 @@ Sur ces tailles, Python simple est le plus rapide. Hadoop paie un coût de déma
 
 ## Voir aussi
 
-- [tp-accidents-spark](https://github.com/ItaTuTsuki/tp-accidents-spark) : analyse des accidents de la route avec PySpark (RDD, DataFrames et Spark SQL).
+- [TP2](https://github.com/ItaTuTsuki/TP2) : analyse des accidents de la route avec PySpark (RDD, DataFrames et Spark SQL).
+- [TP3_ID6](https://github.com/ItaTuTsuki/TP3_ID6) : deux cas personnels, small data et big data.
