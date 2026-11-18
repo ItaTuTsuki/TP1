@@ -23,9 +23,9 @@ Les notebooks sont prévus pour Linux (Google Colab, ou WSL sous Windows). Il su
 | moyen (6 Mo) | 0,2 s | 0,4 s | 36 s | 0,8 s |
 | grand (63 Mo) | 2,5 s | 4,5 s | 41 s | 1,5 s |
 
-Les trois premières colonnes viennent de `comptage_mots.ipynb`, et la colonne Spark de `comptage_mots_spark.ipynb`. Les deux notebooks n'ont pas été exécutés sur la même machine : dans `comptage_mots_spark.ipynb`, exécuté sur une machine à 20 cœurs, Python simple met 0,006 s, 0,18 s et 1,5 s, soit autant que Spark sur le grand fichier.
+Les trois premières colonnes viennent de `comptage_mots.ipynb`, et la colonne Spark de `comptage_mots_spark.ipynb`. Dans ce deuxième notebook, Python simple met 0,006 s, 0,18 s et 1,5 s : Spark rattrape Python seulement sur le grand fichier.
 
-Sur ces tailles, Python simple est le plus rapide. Hadoop paie un coût de démarrage d'environ 35 s par job, quelle que soit la taille du fichier, et Spark réduit fortement ce coût. Ces outils ne deviennent intéressants que pour des volumes trop gros pour une seule machine, répartis sur plusieurs machines.
+Sur ces tailles, Python simple est le plus rapide (Spark fait jeu égal sur le grand fichier). Hadoop paie un coût de démarrage d'environ 35 s par job, quelle que soit la taille du fichier, et Spark réduit fortement ce coût. Ces outils ne deviennent intéressants que pour des volumes trop gros pour une seule machine, répartis sur plusieurs machines.
 
 ## Voir aussi
 
