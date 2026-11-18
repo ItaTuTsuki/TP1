@@ -28,4 +28,4 @@ Sur ces tailles, Python simple est le plus rapide. Hadoop paie un coût de déma
 ## Voir aussi
 
 - [TP2](https://github.com/ItaTuTsuki/TP2) : analyse des accidents de la route avec PySpark (RDD, DataFrames et Spark SQL).
-- [TP3_ID6](https://github.com/ItaTuTsuki/TP3_ID6) : deux cas personnels, small data et big data.
+- [TP3_ID06](https://github.com/ItaTuTsuki/TP3_ID06) : deux cas personnels, small data et big data.
