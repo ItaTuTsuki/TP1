@@ -1,6 +1,6 @@
 # TP1 : comptage de mots
 
-**Auteur :** Hugo EXERTIER, cours Big Data 5A (Mohamed Quafafou), rendu du 18/11/2026.
+Hugo EXERTIER, cours de Big Data 5A, rendu du 18/11/2026.
 
 Comparaison de quatre méthodes (Python séquentiel, PySpark, Python pseudo-MapReduce, Hadoop MapReduce) pour compter les occurrences de mots dans un fichier texte, sur trois fichiers de tailles différentes (1 000, 100 000 et 1 000 000 lignes).
 
